@@ -1,0 +1,76 @@
+
+
+
+body {
+    background-image: url("https://orig00.deviantart.net/de54/f/2017/163/e/0/monster_hunter_worlds_logo_by_timothylok-dbcimgr.png");
+}
+#header {
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+    font-family: 'GL-Tsukiji-5go';
+    text-decoration: underline
+}
+.about {
+    font-family: 'GL-Tsukiji-5go';
+    font-size: 2em;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: groove #1e431a 5px;
+    text-align: center;
+
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: #84ccbc;
+    text-align: center;
+}
+
+.nav-bar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 45px;
+    text-decoration: none;
+    font-size: 17px;
+
+
+}
+
+.nav-bar a:hover {
+    background-color: #945F84;
+    color: black;
+}
+
+.nav-bar a.active {
+    background-color: #84ccbc;
+    color: white;
+}
+
+.nav-bar .search-container {
+    float: right;
+}
+
+.nav-bar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.nav-bar button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-bar button:hover {
+    background: #ccc;
+}
